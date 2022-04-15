@@ -1,17 +1,10 @@
 import { useState, useEffect, useCallback } from 'react'
-import { BiListMinus } from "react-icons/bi"
-import Search from "./components/Search"
-import CarInfo from "./components/CarInfo"
-// import Select from "./components/Select"
-import Select, { StylesConfig } from 'react-select'
+import Select from 'react-select'
 
 
 function App() {
 
-  // let [carList, setCarList] = useState([]);
-  // let [query, setQuery] = useState("");
-  let [vehicleTypeBy, setVehicleTypeBy] = useState("");
-  // let [orderBy, setOrderBy] = useState("asc");
+
   let [dropdownList, setDropdownList] = useState([]);
   let [odropdownList, setOdropdownList] = useState([]);
   let [makeList, setMakeList] = useState([]);
@@ -48,16 +41,6 @@ function App() {
   useEffect(() => {
     fetchDropdown()
   }, [fetchDropdown]);
-
-  // const getMakesList = (myVehicleType) => {
-  //   console.log(myVehicleType);
-  //   setVehicleTypeBy(myVehicleType);
-  //   fetchMakes(myVehicleType);
-  // }
-
-  // useEffect(() => {
-  //   fetchMakes()
-  // }, [fetchMakes]);
 
   
   const [selectedOption, setSelectedOption] = useState(null);

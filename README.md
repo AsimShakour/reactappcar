@@ -1,7 +1,7 @@
-# React.js: 
+# React.js: Asim Shakour
 
 
-React is a JavaScript library with reusable components and a unique data rendering approach. Web interfaces that you create with React are flexible, fast, and lightweight. 
+React is a JavaScript library with reusable components which has a unique data rendering approach. React interfaces are flexible, fast, and lightweight. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
